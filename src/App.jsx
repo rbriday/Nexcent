@@ -3,6 +3,7 @@ import Clients from "./components/Clients/Clients"
 import Community from "./components/Community/Community"
 import Customer from "./components/Customer/Customer"
 import Design from "./components/Design/Design"
+import Footer from "./components/Footer/Footer"
 import GetDemo from "./components/GetDemo/GetDemo"
 import Local from "./components/Local/Local"
 import Marketing from "./components/Marketing/Marketing"
@@ -25,6 +26,7 @@ function App() {
       <Customer></Customer>
       <Marketing></Marketing>
       <GetDemo></GetDemo>
+      <Footer></Footer>
     </>
   )
 }

@@ -12,8 +12,8 @@ const Clients = () => {
         <div className="py-[40px]">
             <Container>
                 <div className="text-center pb-[16px]">
-                    <h3 className="font-primary font-semibold text-[36px] text-secondary leading-[44px]">Our Clients</h3>
-                    <p className="font-primary text-[16px] text-secondary leading-[24px] pt-[8px]">We have been working with some Fortune 500+ clients</p>
+                    <h3 className="font-primary font-semibold text-[30px] md:text-[36px] text-secondary leading-[44px]">Our Clients</h3>
+                    <p className="font-primary text-[14px] md:text-[16px] text-secondary md:leading-[24px] pt-[8px]">We have been working with some Fortune 500+ clients</p>
                 </div>
                 <div className="flex justify-between py-[25px]">
                     <img src= {clintOne} alt="#clintOne" />

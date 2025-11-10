@@ -8,11 +8,11 @@ const Community = () => {
     return (
         <div>
             <Container>
-                <div className="w-[542px] text-center mx-auto mb-[16px]">
-                    <h3 className="font-primary font-semibold text-[35px] text-primary leading-[44px] pb-[8px]">Manage your entire community in a single system</h3>
+                <div className="w-full md:w-[542px] text-center mx-auto mb-[16px]">
+                    <h3 className="font-primary font-semibold text-[22px] md:text-[35px] text-primary leading-[27px] md:leading-[44px] pb-[8px]">Manage your entire community in a single system</h3>
                     <p className="font-primary text-[16px] text-secondary leading-[24px]">Who is Nextcent suitable for?</p>
                 </div>
-                <div className="flex justify-between">
+                <div className="md:flex justify-between ">
                     <div className="w-[299px] p-[24px] text-center shadow-md mb-[30px]">
                         <img src= {communityOne} alt="#communityOne" className="m-auto" />
                         <h3 className="font-primary font-bold text-[28px] text-primary leading-[36px] pt-[16px] pb-[8px]">Membership Organisations</h3>
